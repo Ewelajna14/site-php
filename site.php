@@ -11,6 +11,12 @@
     </head>
     <body>
      
+    <?php
+    echo "<h1>My site</h1>";
+    $name = "John";
+    $age = 35;
+    echo "<p> Hello my name is $name and I am $age old. </p>"
+    ?>
         
         <script src="" async defer></script>
     </body>
