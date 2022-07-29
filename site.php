@@ -15,7 +15,9 @@
     echo "<h1>My site</h1>";
     $name = "John";
     $age = 35;
-    echo "<p> Hello my name is $name and I am $age old. </p>"
+    echo strlen($name); // return length of the string
+    echo "<p> Hello my name is $name and I am $age old. </p>";
+
     ?>
         
         <script src="" async defer></script>
