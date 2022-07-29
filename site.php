@@ -33,12 +33,15 @@
      //getting input from user
     ?>
     <form avtion="site.php" method="get">
-     Name: <input type="text" name="name">
+     <input type="number" name="num1"><br/>
+     <input type="number" name="num2">
      <input type="submit">
     </form>
 
-    <?php echo $_GET['name']; //get info from form
+     Answer: <?php echo $_GET['num1'] + $_GET["num2"]; //get input
     ?>
+
+
         
         <script src="" async defer></script>
     </body>
