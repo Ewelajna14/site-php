@@ -28,14 +28,17 @@
      max(2, 10); //return bigger number
      round(3.2); //regular round => will return 3
      ceil(3.3);//round up => will return 4
-     floor(3.8) //round down => will return 3
+     floor(3.8); //round down => will return 3
 
      //getting input from user
     ?>
     <form avtion="site.php" method="get">
      Name: <input type="text" name="name">
+     <input type="submit">
     </form>
 
+    <?php echo $_GET['name']; //get info from form
+    ?>
         
         <script src="" async defer></script>
     </body>
