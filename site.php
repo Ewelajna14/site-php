@@ -15,7 +15,8 @@
     echo "<h1>My site</h1>";
     $name = "John";
     $age = 35;
-    echo strlen($name); // return length of the string
+    strlen($name); // return length of the string
+    str_replace("John", "Sarah", $name); //replace string in phrase
     echo "<p> Hello my name is $name and I am $age old. </p>";
 
     ?>
