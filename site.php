@@ -17,6 +17,7 @@
     $age = 35;
     strlen($name); // return length of the string
     str_replace("John", "Sarah", $name); //replace string in phrase
+    echo substr($name, 1,2); //create substring from existing string, start from index 1 and cut 2 elements => will return "oh"
     echo "<p> Hello my name is $name and I am $age old. </p>";
 
     ?>
