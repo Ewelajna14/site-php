@@ -19,7 +19,7 @@
     $age = 35;
     strlen($name); // return length of the string
     str_replace("John", "Sarah", $name); //replace string in phrase
-    echo substr($name, 1,2); //create substring from existing string, start from index 1 and cut 2 elements => will return "oh"
+    substr($name, 1,2); //create substring from existing string, start from index 1 and cut 2 elements => will return "oh"
     echo "<p> Hello my name is $name and I am $age old. </p>";
 
     //numbers
@@ -29,7 +29,13 @@
      round(3.2); //regular round => will return 3
      ceil(3.3);//round up => will return 4
      floor(3.8) //round down => will return 3
+
+     //getting input from user
     ?>
+    <form avtion="site.php" method="get">
+     Name: <input type="text" name="name">
+    </form>
+
         
         <script src="" async defer></script>
     </body>
